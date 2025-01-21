@@ -1,0 +1,370 @@
+{
+    "departures": [
+        {
+            "tripId": "1|70031|2|86|25122024",
+            "stop": {
+                "type": "stop",
+                "id": "900075151",
+                "name": "Wildenbruchplatz (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900075151",
+                    "latitude": 52.484437,
+                    "longitude": 13.443808
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "when": "2024-12-25T21:26:00+01:00",
+            "plannedWhen": "2024-12-25T21:23:00+01:00",
+            "delay": 180,
+            "platform": null,
+            "plannedPlatform": null,
+            "prognosisType": "prognosed",
+            "direction": "U Berliner Str.",
+            "provenance": null,
+            "line": {
+                "type": "line",
+                "id": "bvb-m43",
+                "fahrtNr": "136178",
+                "name": "M43",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                    "type": "operator",
+                    "id": "berliner-verkehrsbetriebe",
+                    "name": "Berliner Verkehrsbetriebe"
+                }
+            },
+            "remarks": [],
+            "origin": null,
+            "destination": {
+                "type": "stop",
+                "id": "900044201",
+                "name": "U Berliner Str. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900044201",
+                    "latitude": 52.487044,
+                    "longitude": 13.331353
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "currentTripPosition": {
+                "type": "location",
+                "latitude": 52.483807,
+                "longitude": 13.442856
+            },
+            "occupancy": "low"
+        },
+        {
+            "tripId": "1|70071|0|86|25122024",
+            "stop": {
+                "type": "stop",
+                "id": "900075151",
+                "name": "Wildenbruchplatz (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900075151",
+                    "latitude": 52.484437,
+                    "longitude": 13.443808
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "when": "2024-12-25T21:33:00+01:00",
+            "plannedWhen": "2024-12-25T21:33:00+01:00",
+            "delay": 0,
+            "platform": null,
+            "plannedPlatform": null,
+            "prognosisType": "prognosed",
+            "direction": "U Boddinstr.",
+            "provenance": null,
+            "line": {
+                "type": "line",
+                "id": "bvb-m43",
+                "fahrtNr": "136142",
+                "name": "M43",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                    "type": "operator",
+                    "id": "berliner-verkehrsbetriebe",
+                    "name": "Berliner Verkehrsbetriebe"
+                }
+            },
+            "remarks": [],
+            "origin": null,
+            "destination": {
+                "type": "stop",
+                "id": "900079152",
+                "name": "Fontanestr./Flughafenstr. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900079152",
+                    "latitude": 52.480257,
+                    "longitude": 13.421165
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "currentTripPosition": {
+                "type": "location",
+                "latitude": 52.493561,
+                "longitude": 13.456852
+            },
+            "occupancy": "low"
+        },
+        {
+            "tripId": "1|69972|2|86|25122024",
+            "stop": {
+                "type": "stop",
+                "id": "900075151",
+                "name": "Wildenbruchplatz (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900075151",
+                    "latitude": 52.484437,
+                    "longitude": 13.443808
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "when": "2024-12-25T21:34:00+01:00",
+            "plannedWhen": "2024-12-25T21:33:00+01:00",
+            "delay": 60,
+            "platform": null,
+            "plannedPlatform": null,
+            "prognosisType": "prognosed",
+            "direction": "Stralau, Tunnelstr.",
+            "provenance": null,
+            "line": {
+                "type": "line",
+                "id": "bvb-m43",
+                "fahrtNr": "136450",
+                "name": "M43",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                    "type": "operator",
+                    "id": "berliner-verkehrsbetriebe",
+                    "name": "Berliner Verkehrsbetriebe"
+                }
+            },
+            "remarks": [],
+            "origin": null,
+            "destination": {
+                "type": "stop",
+                "id": "900120002",
+                "name": "Tunnelstr. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900120002",
+                    "latitude": 52.490343,
+                    "longitude": 13.480745
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "currentTripPosition": {
+                "type": "location",
+                "latitude": 52.478747,
+                "longitude": 13.436132
+            },
+            "occupancy": "low"
+        },
+        {
+            "tripId": "1|70008|0|86|25122024",
+            "stop": {
+                "type": "stop",
+                "id": "900075151",
+                "name": "Wildenbruchplatz (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900075151",
+                    "latitude": 52.484437,
+                    "longitude": 13.443808
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "when": "2024-12-25T21:43:00+01:00",
+            "plannedWhen": "2024-12-25T21:43:00+01:00",
+            "delay": 0,
+            "platform": null,
+            "plannedPlatform": null,
+            "prognosisType": "prognosed",
+            "direction": "Eichenstr./Puschkinallee",
+            "provenance": null,
+            "line": {
+                "type": "line",
+                "id": "bvb-m43",
+                "fahrtNr": "136388",
+                "name": "M43",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                    "type": "operator",
+                    "id": "berliner-verkehrsbetriebe",
+                    "name": "Berliner Verkehrsbetriebe"
+                }
+            },
+            "remarks": [],
+            "origin": null,
+            "destination": {
+                "type": "stop",
+                "id": "900190004",
+                "name": "Eichenstr./Puschkinallee (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900190004",
+                    "latitude": 52.494505,
+                    "longitude": 13.453472
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "occupancy": "low"
+        },
+        {
+            "tripId": "1|70063|0|86|25122024",
+            "stop": {
+                "type": "stop",
+                "id": "900075151",
+                "name": "Wildenbruchplatz (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900075151",
+                    "latitude": 52.484437,
+                    "longitude": 13.443808
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": false,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "when": "2024-12-25T21:43:00+01:00",
+            "plannedWhen": "2024-12-25T21:43:00+01:00",
+            "delay": 0,
+            "platform": null,
+            "plannedPlatform": null,
+            "prognosisType": "prognosed",
+            "direction": "U Berliner Str.",
+            "provenance": null,
+            "line": {
+                "type": "line",
+                "id": "bvb-m43",
+                "fahrtNr": "136244",
+                "name": "M43",
+                "public": true,
+                "adminCode": "BVB---",
+                "productName": "Bus",
+                "mode": "bus",
+                "product": "bus",
+                "operator": {
+                    "type": "operator",
+                    "id": "berliner-verkehrsbetriebe",
+                    "name": "Berliner Verkehrsbetriebe"
+                }
+            },
+            "remarks": [],
+            "origin": null,
+            "destination": {
+                "type": "stop",
+                "id": "900044201",
+                "name": "U Berliner Str. (Berlin)",
+                "location": {
+                    "type": "location",
+                    "id": "900044201",
+                    "latitude": 52.487044,
+                    "longitude": 13.331353
+                },
+                "products": {
+                    "suburban": false,
+                    "subway": true,
+                    "tram": false,
+                    "bus": true,
+                    "ferry": false,
+                    "express": false,
+                    "regional": false
+                }
+            },
+            "occupancy": "low"
+        }
+    ],
+    "realtimeDataUpdatedAt": 1735158399
+}
