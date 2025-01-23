@@ -27,11 +27,18 @@ wifi_connect.connect_to_wifi()
 motion_sensor = Pin(2, Pin.IN)  # GPIO 2 as input
 
 # Stations 
-stations = [
-    '900075151',    # Wildenbruch
-    '900075101'     # Erkstr
-]
+# LIAM COMMENT
+# You are able to use enums to represent absolute nonsense data - see below
+from enum import Enum
 
+class Station(Enum):
+    WILDENBRUCH = '900075151'
+    ERKSTR = '900075101'
+
+stations = [Station.WILDENBRUCH, Station.ERKSTR]    # Wildenbruch
+
+# LIAM COMMENT
+# This is very clear and concise. Very Pythonic.
 def display_new_departures(stations):
 
     # print("Start fetching data")
@@ -58,6 +65,17 @@ def display_new_departures(stations):
 
 
 while True:
+    
+    # LIAM COMMENT
+    # So, we would typically use interrupts to actually deal with informing us of a change in a PIN
+    # I took a quick look at the docs and Pin exposes an irq method.
+    # https://docs.micropython.org/en/latest/library/machine.Pin.html#machine.Pin.irq
+
+    # You are then able to define the edge/high/low-level as well as the handler to be called
+    # You would then do some sort of machine.light_sleep() to then reduce power consumption and
+    # wait until your handler is called.
+
+
     if motion_sensor.value() == 1:  # Motion detected
         print("Motion detected!")
         display_new_departures(stations)
