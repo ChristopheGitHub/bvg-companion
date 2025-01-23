@@ -30,10 +30,13 @@ def create_displayable_entries(bus_data):
 
     display_entries = []
 
-    for (bus, schedules) in bus_data.items():
-        bus_number = bus[0]
-        bus_direction = bus[1]
+    # LIAM COMMENT
+    # You're able to destruct tuples to avoid having to do index lookups
+    # This can actually be applied to tuples, lists and anything which 
+    # implements index lookups e.g. my_list[0]
+    for ((bus_number, bus_direction), schedules) in bus_data.items(): 
         
+        # This looks like a great place for a function to remove the repeated code blocks
         first_time = schedules[0]['planned'][14:16]
         first_delay = int(schedules[0]['delay']/60) if schedules[0]['delay'] is not None else 0
         first_calculated_time = f"{first_time}" + "+" + f"{first_delay}" if first_delay > 0 else first_time

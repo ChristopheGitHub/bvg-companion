@@ -1,6 +1,11 @@
 import urequests as requests
 
 base_schedule_url = 'http://v6.bvg.transport.rest/stops/STATION/departures?duration=20&linesOfStops=false&remarks=true&language=en'
+
+# LIAM COMMENT
+# You are holding global state here, Generally a bit of a 'no no' unless you're working with caches or 
+# some form of shared resource.
+# The caller should hold this state and provide it.
 aggregated_buses = {}
 
 def get_departure_data_from_bvg(stations):
