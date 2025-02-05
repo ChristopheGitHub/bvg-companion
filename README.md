@@ -1,4 +1,4 @@
-# MicroPython Simulation in Wokwi for VS Code
+# BVG Companion
 
 MicroPython project for an ESP32 that detects motion and displays the next bus departures (with delays) near my home.
  
